@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Weather</title>
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <main class="app">
+        <div class="glass-card">
+
+            <header>
+                <h1 id="greeting">Good Day</h1>
+                <input type="text" id="cityInput" placeholder="Search city..." />
+            </header>
+
+            <section class="weather-main">
+                <h2 id="city">—</h2>
+                <div class="temp">
+                    <span id="temperature">--</span>°
+                </div>
+                <p id="condition">—</p>
+                <p class="feels">
+                    Feels like <span id="feels">--</span>°
+                </p>
+            </section>
+
+            <section class="weather-extra">
+                <div>
+                    <span>Humidity</span>
+                    <strong id="humidity">--%</strong>
+                </div>
+                <div>
+                    <span>Wind</span>
+                    <strong id="wind">-- km/h</strong>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
